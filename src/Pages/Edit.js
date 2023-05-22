@@ -1,10 +1,10 @@
-import UserEditForm from "../Components/UserEditForm";
+import ProductEditForm from "../Components/ProductEditForm";
 const Edit  = () => {
     return(
         <div className="m-8">
-        <h2 classname="">Edit Member Info</h2>
+        <h2 classname="">Edit Product Details</h2>
         <br/>
-        <UserEditForm />
+        <ProductEditForm />
       </div>
     );
 }

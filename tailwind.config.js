@@ -4,13 +4,21 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    
     screens: {
       sm: '480px',
       md: '768px',
       lg: '976px',
       xl: '1440px',
     },
-    extend: {},
+    extend: {
+      colors: {
+        'pale-pink': '#f8b6c1',
+        'lt-blue': '#4a84ac',
+        'dk-blue': '#0b2c4a',
+        
+      },
+    },
   },
   plugins: [],
 }

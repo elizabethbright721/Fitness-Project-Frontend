@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 //COMPONENTS
-import NavBar from "./Components/Navbar";
+import NavBar from "./Components/Navbar.js";
+import Footer from "./Components/Footer.js"
 
 //PAGES
 import About from "./Pages/About.js";
@@ -22,8 +23,9 @@ function App() {
       <Route path="/fitness/:id/edit" element={<Edit />}/>
       <Route path="/fitness/:id" element={<Show />} />
       <Route path="*" element={<FourOFour />} />
+      
      </Routes>
-   
+      <Footer />
       
     </div>
     </Router>

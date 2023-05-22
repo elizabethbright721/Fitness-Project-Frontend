@@ -1,9 +1,8 @@
-import UserDetails from "../Components/UserDetails";
+import ProductDetails from "../Components/ProductDetails";
 const Show = () => {
     return(
         <div className="Show">
-        <h2 className="title">Profile</h2>
-        <UserDetails />
+        <ProductDetails />
       </div>
     );
 }
