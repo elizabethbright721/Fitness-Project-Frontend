@@ -1,6 +1,6 @@
 # Getting Fit Together App
 
-The purpose of this app is to...
+The purpose of this app is to share health and wellness products that have helped me live a healthier lifestyle.  
 
 ## Learn More
 
